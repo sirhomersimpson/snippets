@@ -15,6 +15,7 @@ def _permute (s, index):
             s[index], s[i] = s[i], s[index]
             _permute(s, index+1)    
             # backtrack
+            
             s[index], s[i] = s[i], s[index] 
 
 #https://www.tutorialspoint.com/How-to-find-all-possible-permutations-of-a-given-string-in-Python
