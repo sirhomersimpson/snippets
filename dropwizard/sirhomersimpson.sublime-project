@@ -1,0 +1,33 @@
+{
+	"buffers":
+	[
+		{
+			"file": "/Users/rkisnah/Documents/docs/scratch.txt",
+			"settings":
+			{
+				"buffer_size": 172542,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "List",
+			"shell_cmd": "ls -l"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "/Users/rkisnah/Documents/docs/code.tmp/sirhomersimpson/snippets/dropwizard"
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4,
+		"show_minimap": false,
+
+	},
+}

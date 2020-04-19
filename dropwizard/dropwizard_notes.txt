@@ -1,0 +1,4 @@
+$ mvn archetype:generate -DgroupId=com.dwbook.phonebook-DartifactId=dwbook-phonebook -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn archetype:generate -DgroupId=com.dwbook.phonebook -DartifactId=dwbook-phonebook -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DarchetypeVersion=1.1

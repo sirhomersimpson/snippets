@@ -1,0 +1,471 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"CONS",
+				"CONSOLE_HISTORIES"
+			],
+			[
+				"console",
+				"console_id"
+			],
+			[
+				"delete",
+				"delete_history"
+			],
+			[
+				"p",
+				"paths"
+			],
+			[
+				"all",
+				"all_subsets(…)\tfunction ⟠"
+			],
+			[
+				"tu",
+				"tuple_item\tunknown ⟠"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "$ mvn archetype:generate -DgroupId=com.dwbook.phonebook-DartifactId=dwbook-phonebook -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeGroupId=org.apache.maven.archetypes -DinteractiveMode=false\n\n\nmvn archetype:generate -DgroupId=com.dwbook.phonebook -DartifactId=dwbook-phonebook -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DarchetypeVersion=1.1\n\n\n\nCaused by: org.apache.maven.archetype.exception.UnknownArchetype: The desired archetype does not exist (org.apache.maven.archetypes:maven-archetype-quickstart:1.1)\n\n\nmvn archetype:generate -B -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DgroupId=com.company -DartifactId=project -Dversion=1.0-SNAPSHOT -Dpackage=com.company.project\n\nmvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4\n\n\nmvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DgroupId=com.dwbook.phonebook-DartifactId=dwbook-phonebook ",
+			"file": "dropwizard_notes.txt",
+			"file_size": 339,
+			"file_write_time": 132311351625234161,
+			"settings":
+			{
+				"buffer_size": 1144,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dwbook-phonebook/pom.xml",
+			"settings":
+			{
+				"buffer_size": 2698,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sirhomersimpson.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 7538,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sirhomersimpson.sublime-project",
+			"settings":
+			{
+				"buffer_size": 444,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"clear",
+			"console",
+			"xterm"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rkisnah/Documents/docs/code.tmp/sirhomersimpson/snippets/dropwizard"
+	],
+	"file_history":
+	[
+		"/Users/rkisnah/Documents/docs/code.tmp/compute-control/compute-deployment-config/compute-bm-alarm-config/out.txt",
+		"/Users/rkisnah/Documents/docs/code.tmp/rik/tools/siberial/getconsolehistory.sh",
+		"/Users/rkisnah/Documents/docs/code.tmp/compute-control-odoupgrade/compute-control/compute-api/Dockerfile",
+		"/Users/rkisnah/Documents/docs/sublime_projects/notes.sublime-workspace",
+		"/Users/rkisnah/Documents/docs/interviews/bt_matthew_parker/Matthew Parker - IC3 - SDE.txt",
+		"/Users/rkisnah/Desktop/console_history.txt",
+		"/Users/rkisnah/.m2/settings.xml",
+		"/Users/rkisnah/Documents/docs/code.tmp/rik/tools/siberial/getconsolehistory3.sh",
+		"/Users/rkisnah/Documents/docs/code.tmp/rik/tools/siberial/getconsolehistory2.sh",
+		"/Users/rkisnah/Documents/docs/code.tmp/compute-ops/scripts/compute_admin.py",
+		"/Users/rkisnah/tickets.txt",
+		"/Users/rkisnah/Documents/docs/projects/rb_kix_mel/rb_notes.txt",
+		"/Users/rkisnah/Desktop/iad2_getconsole_logs.txt",
+		"/Users/rkisnah/.oci/oci_cli_rc",
+		"/Users/rkisnah/.oci/config",
+		"/Users/rkisnah/Downloads/console.logs",
+		"/Users/rkisnah/Documents/docs/code/compute-test/baremetal/config/ap-melbourne-1-ad1-dev.conf",
+		"/Users/rkisnah/Documents/docs/code/compute-control/compute-deployment-config/compute-platform-config/iam/base.conf",
+		"/Users/rkisnah/.ssh/config",
+		"/Users/rkisnah/tmp/thread.txt",
+		"/Users/rkisnah/Documents/docs/sublime_projects/notes.sublime-project",
+		"/Users/rkisnah/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/rkisnah/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/rkisnah/Documents/docs/code/snippets/recursion/recursion.sublime-project",
+		"/Users/rkisnah/Library/Application Support/Sublime Text 3/Packages/User/python3x.sublime-build",
+		"/Users/rkisnah/Documents/docs/code/practice/dec_jan/permute_inbuilt.py",
+		"/Users/rkisnah/Documents/docs/interviews/bt_training_feedback_template.txt",
+		"/Users/rkisnah/Documents/docs/scratch.txt",
+		"/Users/rkisnah/Documents/docs/oci_notes.txt",
+		"/Users/rkisnah/Documents/docs/projects/rb_kix_mel/config.json",
+		"/Users/rkisnah/Downloads/application_compute-admin-01301.node.ad1.ap-seoul-1_2019-03-13T05_00Z.log",
+		"/Users/rkisnah/Documents/docs/projects/rb_kix_mel/ssv2/ilom_creds",
+		"/Users/rkisnah/Documents/docs/projects/rb_kix_mel/ssv2/data_warehouse_fingerprint",
+		"/Users/rkisnah/Documents/docs/projects/rb_kix_mel/ssv2/data_warehouse_passphrase",
+		"/Users/rkisnah/Documents/docs/projects/rb_kix_mel/ssv2/data_warehouse_private_key",
+		"/Users/rkisnah/Documents/docs/projects/rb_kix_mel/ssv2/config.json",
+		"/Users/rkisnah/Downloads/Compute_Control_Build_Development_Branch_BitBucket_816.log",
+		"/Users/rkisnah/Downloads/vcnErrors",
+		"/Users/rkisnah/Downloads/Compute Monthly Report-kpi-report.json",
+		"/Users/rkisnah/Documents/docs/code/competitive_programming/README.md",
+		"/Users/rkisnah/Downloads/bm-canary.docker.json",
+		"/Users/rkisnah/Documents/docs/code/compute-ops/scripts/logs/api/noc-144054/metrics/metrics.log",
+		"/Users/rkisnah/.alias",
+		"/Users/rkisnah/.bash_profile",
+		"/Users/rkisnah/Downloads/settings.xml",
+		"/var/folders/jy/2vhn5dvj3nddfg8y8r3mcx4w0000gn/T/kite_tutorial.py",
+		"/Users/rkisnah/Downloads/install-roots-osx.sh"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DarchetypeGroupId",
+			"ticket",
+			"kiev",
+			"compute_logs.py",
+			"get con",
+			"ef881e6cb095cfed2cfaecd74b0d3d70f7a367ff",
+			"compute-t",
+			"console.us-ashburn",
+			"volume.oc1",
+			"volume",
+			"ocid1.volume.oc1.phx.abyhqljt4eynbks4rygsfgxrs4ptc7vcy7lq7if5nbghjh3i7qixndd4bbrq",
+			"ssh -i",
+			"ssh",
+			"git ",
+			"V2-StuckInstanceDaemon.totalStuckInstances",
+			"WorkflowMetrics.workflows.AttachVnic.BM.failuresInLastTen",
+			"V2-",
+			"auth",
+			"jira",
+			"bash",
+			"\t",
+			"INSTANCE_ACTION_STOPDETACH",
+			"stopdetach",
+			"compute_admin.py",
+			"\"",
+			"capture_console_history_loop",
+			"done",
+			"get_latest",
+			"glimpse",
+			"auth",
+			"failed:",
+			"rikeshk_phx",
+			"cli",
+			"bash",
+			"read",
+			"bash",
+			"sed ",
+			"    ",
+			"sublime",
+			"bmc_compute",
+			"bitbucket",
+			"wfaas",
+			"ops",
+			"compute_admin.py",
+			"compute_admin",
+			"conso",
+			"compute_admin",
+			"folder",
+			"\n            ",
+			"folders"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dropwizard_notes.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dwbook-phonebook/pom.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								415,
+								415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sirhomersimpson.sublime-workspace",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1007.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sirhomersimpson.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 32.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/python3x.sublime-build",
+	"project": "sirhomersimpson.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"~/",
+				"~/Documents/docs/code/snippets/recursion/find_target_sum.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
