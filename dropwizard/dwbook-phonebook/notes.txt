@@ -1,0 +1,18 @@
+4/22
+
+I have hit https://learning.oreilly.com/library/view/restful-web-services/9781783289530/ch02s03.html
+Trying to understand the logger SLF4J - trying it out in a sister project hello_world_logger
+
+Next: https://learning.oreilly.com/library/view/restful-web-services/9781783289530/ch03.html
+
+4/23
+Dont change the pom.xml - it works
+generics https://www.geeksforgeeks.org/generics-in-java/
+generics are used to safe / compile, code re-uses
+
+Next: https://learning.oreilly.com/library/view/restful-web-services/9781783289530/ch03s02.html
+
+4/24:
+ref: https://mkyong.com/maven/how-to-run-unit-test-with-maven/
+mvn -Dtest=com.dwbook.phonebook.AppTest test
+
