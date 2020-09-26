@@ -1,5 +1,0 @@
-2/22/2020
------------
-Tutorial: http://tutorials.jenkov.com/maven/your-first-maven-project.html
-To be able to compile add the plugin for jars->http://roufid.com/no-main-manifest-attribute-in-app-jar/
-else you will get the error "No main manifest attribute, in jar"
