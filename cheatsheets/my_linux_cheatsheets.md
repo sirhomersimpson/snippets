@@ -8,14 +8,14 @@ eval $(ssh-agent); pic-tunnel-ingress-proxies
 alias lkcv1='eval "$(ssh-agent)";  ssh-add -s /usr/lib/libykcs11.so'
 alias lkcv2='eval "$(ssh-agent -s)"; ssh-add -s /usr/lib/libykcs11.so'
 
-#git
+# git
 
-##Delete a branch
+1) Delete a branch
 
-###remote
+remote
 git push origin --delete rkisnah/alarmfixes
 
-####local
+local
 git branch -d feature/login
 
 
@@ -68,6 +68,6 @@ git log --pretty=oneline
 #Ref: https://dev.to/adityathebe/a-handy-way-to-know-your-public-ip-address-with-dns-servers-4nmn
 dig +short myip.opendns.com @resolver1.opendns.com -4
 
-#tmux
+# tmux
 set -g mouse on 
 set -g mouse-select-pane on
