@@ -71,3 +71,7 @@ dig +short myip.opendns.com @resolver1.opendns.com -4
 # tmux
 set -g mouse on 
 set -g mouse-select-pane on
+
+# random password generator
+# https://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/
+openssl rand -base64 32
