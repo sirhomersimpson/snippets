@@ -68,3 +68,21 @@ set -g mouse-select-pane on
 # random password generator
 # https://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/
 openssl rand -base64 32
+
+# open-ssh
+## Generate RSA key pair in PEM for API Signing in OCI
+openssl genrsa -out ~/.oci/oci_api_key.pem 2048 #-aes128 with cipher
+chmod go-rwx ~/.oci/oci_api_key.pem
+openssl rsa -pubout -in ~/.oci/oci_api_key.pem -out ~/.oci/oci_api_key_public.pem  
+
+### SSH KEY Pair
+ssh-keygen -t rsa -N "" -b 2048 -C "rik3" -f /tmp/rik3
+// Add the key
+ssh-add rik3
+// Delete the key
+ssh-add -d rik3
+
+Ref:
+https://security.stackexchange.com/questions/29876/what-are-the-differences-between-ssh-generated-keysssh-keygen-and-openssl-keys
+https://docs.oracle.com/en-us/iaas/Content/General/Concepts/credentials.htm#Security_Credentials
+ssh-add -d rik3
