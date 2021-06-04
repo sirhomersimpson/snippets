@@ -26,6 +26,7 @@ sudo systemctl restart gdm
 
 
 # date - unix time to UTC
+
 https://www.howtogeek.com/410442/how-to-display-the-date-and-time-in-the-linux-terminal-and-use-it-in-bash-scripts/
 [rkisnah@compute-ops-01002 ~]$ date --utc --date='@1571249945'
 Wed Oct 16 18:19:05 UTC 2019
