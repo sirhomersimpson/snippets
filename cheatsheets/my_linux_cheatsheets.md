@@ -87,3 +87,8 @@ Ref:
 https://security.stackexchange.com/questions/29876/what-are-the-differences-between-ssh-generated-keysssh-keygen-and-openssl-keys
 https://docs.oracle.com/en-us/iaas/Content/General/Concepts/credentials.htm#Security_Credentials
 ssh-add -d rik3
+
+# Create a qcow image 
+
+ qemu-img convert -O qcow2 /dev/sda /home/ubuntu/image.qcow2
+ ref: https://askubuntu.com/questions/853160/create-image-with-dd-command-cow2
