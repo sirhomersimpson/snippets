@@ -49,6 +49,11 @@ yubico-piv-tool -a verify-pin -P 4251421
 ssh-keygen -E md5 -lf ~/.ssh/<>.pub 
 3072 MD5:5e:71:f5:e9: (RSA)
 
+# find sha256 of keys
+sudo ssh-keygen -E sha256 -lf id_rsa
+2048 SHA256:4twKUdfmtSrpVWEHhT4yM1FZKBq26nOVKvLHgeC9YsM rik.kisnah@oracle.com (RSA)
+ref:https://superuser.com/questions/1377132/get-the-fingerprint-of-an-existing-ssh-public-key/1425908
+
 # restart sshd
 sudo systemctl restart sshd.service
 
