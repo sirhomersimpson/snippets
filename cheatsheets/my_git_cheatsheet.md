@@ -27,17 +27,5 @@ git push origin --delete rkisnah/test
 #### local
 git branch -d rkisnah/test123
 
-
 # git log 
 git log --pretty=oneline
-
-### delete branches
-// remote
-// List branches
-git branch -a
-
-// Delete
-git push origin --delete rkisnah/test
-  
-#### local
-git branch -d rkisnah/test123
