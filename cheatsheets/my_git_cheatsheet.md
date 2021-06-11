@@ -20,9 +20,11 @@ git checkout -b rkisnah/alarmfixes
 git log --pretty=oneline
 
 ### delete branches
-#### remote
+// remote
+// List branches
 git branch -a
 
+// Delete
 git push origin --delete rkisnah/test
   
 #### local
