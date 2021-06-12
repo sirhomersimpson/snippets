@@ -1,7 +1,7 @@
 # Set password 
 https://jupyter-notebook.readthedocs.io/en/stable/public_server.html <br>
 
-`$ jupyter notebook password`
+`$ jupyter notebook password
 Enter password:  ****
 Verify password: ****
 [NotebookPasswordApp] Wrote hashed password to /Users/you/.jupyter/jupyter_notebook_config.json
