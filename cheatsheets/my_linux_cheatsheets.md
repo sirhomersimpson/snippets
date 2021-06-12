@@ -128,3 +128,12 @@ openssl rsautl -encrypt -inkey pub.pem -pubin -in file.txt -out file.bin
 
 // 5. Decrypt file with the public key <br/>
 openssl rsautl -decrypt -inkey key.pem -in file.bin
+
+# journalctl
+
+ref: https://www.howtogeek.com/499623/how-to-use-journalctl-to-read-linux-system-logs/ <br/>
+
+'''
+// to follow
+journal -f
+'''
