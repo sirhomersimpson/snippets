@@ -97,3 +97,9 @@ ssh-add -d rik3
 
  qemu-img convert -O qcow2 /dev/sda /home/ubuntu/image.qcow2
  ref: https://askubuntu.com/questions/853160/create-image-with-dd-command-cow2
+ 
+# update-alternatives 
+ref: https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux
+update-alternatives --list python
+update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
+update-alternatives --config python
