@@ -135,5 +135,5 @@ ref: https://www.howtogeek.com/499623/how-to-use-journalctl-to-read-linux-system
 
 '''
 // to follow
-journal -f
+journalctl -f
 '''
