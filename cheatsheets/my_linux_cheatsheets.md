@@ -5,10 +5,10 @@ set -o emacs
 
 Delete a branch
 ------------------
-remote
+remote <br/>
 git push origin --delete rkisnah/alarmfixes
 
-local
+local <br/>
 git branch -d feature/login
 
 
@@ -19,7 +19,7 @@ git checkout -b rkisnah/alarmfixes
 Ctrl Super D
 
 # restart gui ubuntu
-sudo systemctl restart systemd-logind
+sudo systemctl restart systemd-logind<br/>
 sudo systemctl restart gdm
 
 # unix timestamps to UTC 
@@ -28,7 +28,7 @@ sudo systemctl restart gdm
 # date - unix time to UTC
 
 https://www.howtogeek.com/410442/how-to-display-the-date-and-time-in-the-linux-terminal-and-use-it-in-bash-scripts/
-[rkisnah@compute-ops-01002 ~]$ date --utc --date='@1571249945'
+[rkisnah@compute-ops-01002 ~]$ date --utc --date='@1571249945' 
 Wed Oct 16 18:19:05 UTC 2019
 
 -> date -u -d @1571249945
@@ -68,7 +68,7 @@ git log --pretty=oneline
 dig +short myip.opendns.com @resolver1.opendns.com -4
 
 # tmux
-set -g mouse on 
+set -g mouse on <br/>
 set -g mouse-select-pane on
 
 # random password generator
@@ -77,20 +77,25 @@ openssl rand -base64 32
 
 # open-ssh
 ## Generate RSA key pair in PEM for API Signing in OCI
-openssl genrsa -out ~/.oci/oci_api_key.pem 2048 #-aes128 with cipher
+openssl genrsa -out ~/.oci/oci_api_key.pem 2048 #-aes128 with cipher 
+
 chmod go-rwx ~/.oci/oci_api_key.pem
+
 openssl rsa -pubout -in ~/.oci/oci_api_key.pem -out ~/.oci/oci_api_key_public.pem  
 
 ### SSH KEY Pair
 ssh-keygen -t rsa -N "" -b 2048 -C "rik3" -f /tmp/rik3
+
 // Add the key
 ssh-add rik3
+
 // Delete the key
 ssh-add -d rik3
 
 Ref:
 https://security.stackexchange.com/questions/29876/what-are-the-differences-between-ssh-generated-keysssh-keygen-and-openssl-keys
 https://docs.oracle.com/en-us/iaas/Content/General/Concepts/credentials.htm#Security_Credentials
+
 ssh-add -d rik3
 
 # Create a qcow image 
@@ -101,5 +106,25 @@ ssh-add -d rik3
 # update-alternatives 
 ref: https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux
 update-alternatives --list python
+
 update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
+
 update-alternatives --config python
+
+# Encry and decrypt
+ref: https://stackoverflow.com/questions/29010967/openssl-unable-to-load-public-key 
+
+// 1. Generate the private key
+openssl genrsa -out key.pem 1024
+
+// 2. Print details of the private key
+openssl rsa -in key.pem -text -noout
+
+// 3. Generate the public key
+openssl rsa -in key.pem -pubout -out pub.pem 
+
+// 4. Encrypt file with the public key
+openssl rsautl -encrypt -inkey pub.pem -pubin -in file.txt -out file.bin
+
+// 5. Decrypt file with the public key
+openssl rsautl -decrypt -inkey key.pem -in file.bin
