@@ -114,17 +114,17 @@ update-alternatives --config python
 # Encry and decrypt
 ref: https://stackoverflow.com/questions/29010967/openssl-unable-to-load-public-key 
 
-// 1. Generate the private key
+// 1. Generate the private key <br/>
 openssl genrsa -out key.pem 1024
 
-// 2. Print details of the private key
+// 2. Print details of the private key <br/>
 openssl rsa -in key.pem -text -noout
 
-// 3. Generate the public key
+// 3. Generate the public key <br/>
 openssl rsa -in key.pem -pubout -out pub.pem 
 
-// 4. Encrypt file with the public key
+// 4. Encrypt file with the public key <br/>
 openssl rsautl -encrypt -inkey pub.pem -pubin -in file.txt -out file.bin
 
-// 5. Decrypt file with the public key
+// 5. Decrypt file with the public key <br/>
 openssl rsautl -decrypt -inkey key.pem -in file.bin
