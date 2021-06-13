@@ -63,6 +63,16 @@ set -o emacs
 # git log one line 
 git log --pretty=oneline
 
+# adding identities for github access
+```
+# Step 1 loads the ssh-agent
+eval `ssh-agent`
+# Step 2 add the key to the agent
+ssh-add ~/.ssh/id_rsa
+# Step 3 check the md5sum of the agent
+ssh-add -l
+```
+
 # get public ip via cli
 #Ref: https://dev.to/adityathebe/a-handy-way-to-know-your-public-ip-address-with-dns-servers-4nmn
 dig +short myip.opendns.com @resolver1.opendns.com -4
