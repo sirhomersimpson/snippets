@@ -18,6 +18,9 @@ git checkout -b rkisnah/alarmfixes
 ## Ubuntu Minimize all windows
 Ctrl Super D
 
+## setting git bash prompts
+export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1 " (%s)"\$ '
+
 # restart gui ubuntu
 sudo systemctl restart systemd-logind<br/>
 sudo systemctl restart gdm
