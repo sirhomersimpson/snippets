@@ -146,10 +146,8 @@ For example, we can use "w" to jump to the next word and "b" to jump back one wo
 ## Configurations Options:
 
     # Mouse support - set to on if you want to use the mouse
-    * setw -g mode-mouse off
-    * set -g mouse-select-pane off
-    * set -g mouse-resize-pane off
-    * set -g mouse-select-window off
+    # Tested on 05-29-2021
+    * set -g mouse on
 
     # Set the default terminal mode to 256color mode
     set -g default-terminal "screen-256color"
