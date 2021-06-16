@@ -150,3 +150,10 @@ ref: https://www.howtogeek.com/499623/how-to-use-journalctl-to-read-linux-system
 // to follow
 journalctl -f
 '''
+
+# ag
+Find text in specific file extensions <br/>
+https://unix.stackexchange.com/questions/343570/how-do-i-use-ag-to-look-for-text-in-files-with-certain-extensions <br/> 
+'''
+ag "shapeConfigs" --file-search-regex '\.conf'
+'''
