@@ -169,11 +169,18 @@ ag "shapeConfigs" --file-search-regex '\.conf'
 '''
 
 # vim 
+## Open vertically
 ```
-# Open vertically
 set :ba
 
 # cli
 vim -o *.* 
 vim -O *.*
 ```
+
+## tabs
+``
+1gt btg
+```
+
+<br> ref: https://superuser.com/questions/410982/in-vim-how-can-i-quickly-switch-between-tabs <br>
