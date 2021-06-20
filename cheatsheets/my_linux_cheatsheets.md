@@ -157,3 +157,13 @@ https://unix.stackexchange.com/questions/343570/how-do-i-use-ag-to-look-for-text
 '''
 ag "shapeConfigs" --file-search-regex '\.conf'
 '''
+
+# vim 
+```
+# Open vertically
+set :ba
+
+# cli
+vim -o *.* 
+vim -O *.*
+```
