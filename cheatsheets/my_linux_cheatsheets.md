@@ -53,19 +53,20 @@ ssh-keygen -E md5 -lf ~/.ssh/<>.pub
 3072 MD5:5e:71:f5:e9: (RSA)
 
 # find sha256 of keys
-```sudo ssh-keygen -E sha256 -lf id_rsa
-2048 SHA256:asdfdsf rik.kisnah@hotmail.com (RSA)```
-<br>
-ref:https://superuser.com/questions/1377132/get-the-fingerprint-of-an-existing-ssh-public-key/1425908
-
-<br>
 ```
-// Use this for PEM file especially OCI API keys
+sudo ssh-keygen -E sha256 -lf id_rsa
+2048 SHA256:asdfdsf rik.kisnah@hotmail.com (RSA)
+ref:https://superuser.com/questions/1377132/get-the-fingerprint-of-an-existing-ssh-public-key/1425908
+```
+
+Use this for PEM file especially OCI API keys
+```
 openssl rsa -pubout -outform DER -in ~/.oci/oci_api_key.pem | openssl md5 -c
 ```
 <br>
 ref: https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm
 <br>
+
 # restart sshd
 sudo systemctl restart sshd.service
 
