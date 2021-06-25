@@ -179,8 +179,13 @@ vim -O *.*
 ```
 
 ## tabs
-``
+```
 1gt btg
 ```
-
 <br> ref: https://superuser.com/questions/410982/in-vim-how-can-i-quickly-switch-between-tabs <br>
+
+# Add ip to know_hosts ssh
+```
+ssh-keyscan -H 150.136.35.112 >> ~/.ssh/known_hosts
+```
+<br> ref: https://www.techrepublic.com/article/how-to-easily-add-an-ssh-fingerprint-to-your-knownhosts-file-in-linux/ <br/>
