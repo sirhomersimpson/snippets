@@ -189,3 +189,10 @@ vim -O *.*
 ssh-keyscan -H 150.136.35.112 >> ~/.ssh/known_hosts
 ```
 <br> ref: https://www.techrepublic.com/article/how-to-easily-add-an-ssh-fingerprint-to-your-knownhosts-file-in-linux/ <br/>
+
+# Redirects
+```
+1) Redirect both standard output and standard error to a file
+command &>file
+```
+<br> ref: https://catonmat.net/bash-one-liners-explained-part-three <br/>
