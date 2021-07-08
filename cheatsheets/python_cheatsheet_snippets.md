@@ -21,3 +21,10 @@ Code snippet: <> <br/>
 'South'
 >>> switch_case[2]()
 ```
+
+# get UTC time
+```
+now = datetime.datetime.now(timezone.utc)
+timestamp = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+```
+ref: https://www.geeksforgeeks.org/get-utc-timestamp-in-python/ <br>
