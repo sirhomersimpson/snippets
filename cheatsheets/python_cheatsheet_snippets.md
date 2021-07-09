@@ -28,3 +28,17 @@ now = datetime.datetime.now(timezone.utc)
 timestamp = now.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 ```
 ref: https://www.geeksforgeeks.org/get-utc-timestamp-in-python/ <br>
+
+# Logging
+```
+import logging
+
+logger = logging.getLogger(__name__)
+c_handler = logging.StreamHandler()
+c_format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+c_handler.setFormatter(c_format)
+logger.addHandler(c_handler)
+
+logger.setLevel(logging.DEBUG)
+```
+ref: https://realpython.com/python-logging/ <br>
