@@ -196,3 +196,9 @@ ssh-keyscan -H 150.136.35.112 >> ~/.ssh/known_hosts
 command &>file
 ```
 <br> ref: https://catonmat.net/bash-one-liners-explained-part-three <br/>
+
+# ssh - avoid ssh host verification
+```
+ssh -o "StrictHostKeyChecking no" opc@grafana
+```
+ref: https://superuser.com/questions/125324/how-can-i-avoid-sshs-host-verification-for-known-hosts <br>
