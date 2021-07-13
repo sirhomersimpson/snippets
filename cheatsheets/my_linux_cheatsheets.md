@@ -202,3 +202,17 @@ command &>file
 ssh -o "StrictHostKeyChecking no" opc@grafana
 ```
 ref: https://superuser.com/questions/125324/how-can-i-avoid-sshs-host-verification-for-known-hosts <br>
+
+# Create self signed certs for https
+I have used this for this https://community.grafana.com/t/grafana-https-configuration/524 <br>
+```
+https://linuxize.com/post/creating-a-self-signed-ssl-certificate/
+openssl req -newkey rsa:4096 \
+            -x509 \
+            -sha256 \
+            -days 3650 \
+            -nodes \
+            -out example.crt \
+            -keyout example.key
+
+```
